@@ -24,11 +24,23 @@
         }
 
         #right-img{
-            width: 650px;
+            width: 500px;
+        }
+
+        #link{
+
+            cursor: pointer;
+        }
+
+        .square{
+            width: 30px;
+            height: 20px;
+            background-color: aliceblue;
         }
     </style>
 </head>
 <body class="bg-black font-sans">
+    
     <div id="nav" class="h-[60px] flex">
         <div id="logo" class="flex basis-2/4">
         <img class="invert self-center ml-10 h-[45px] w-[43px]" src="webpage logo.png" alt="">
@@ -57,10 +69,18 @@
                 </defs>
                 </svg>
 
-                <img src="avengers.png" class="w-86 mt-16 ml-14" id="right-img">
-            <p class="flex-none p-4 mt-10 text-center">Welcome to the Avengers Assemble page! We are excited to share our latest heroes, their stories, and their superpowers.Welcome to the Avengers Assemble page! We are excited to share our latest heroes, their stories, and their superpowers.Welcome to the Avengers Assemble page! We are excited to share our latest heroes, their stories, and their superpowers.Welcome to the Avengers Assemble page! We are excited to share our latest heroes, their stories, and their superpowers.Welcome to the Avengers Assemble page! We are excited to share our latest heroes, their stories, and their superpowers.</p>
+
+                <div id="i1" class="grid grid-cols-1 lg:grid-cols-2 gap-3 flex lg:flex-col md:flex-col mt-10 ml-10">
+
+                    <img src="avengers.png" class="" id="right-img">
+                </div>
+                
+            <p class="flex-none p-4 mt-10 text-center">A website dedicated to the Avengers is a thrilling hub for fans of Earth's Mightiest Heroes. This digital space could serve as a comprehensive platform, showcasing the rich history of the iconic superhero team from Marvel Comics and their journey in the Marvel Cinematic Universe (MCU). Visitors would find detailed profiles of characters like Iron Man, Captain America, Thor, Black Widow, and Hulk, complete with their origins, powers, and key story arcs. The site could feature a timeline of major Avengers events, galleries of high-resolution images, and trailers from their epic movies. Interactive sections might include fan forums, trivia quizzes, and a blog for news on upcoming releases, merchandise, and fan theories. With a sleek, superhero-themed design, the website would cater to both die-hard Marvel enthusiasts and newcomers, uniting them in a shared celebration of heroism and adventure.</p>
             <div class="flex-none mt-10 mb-10 self-center shadow-lg shadow-slate-600/40 hover:scale-105 duration-300 hover:shadow-slate-100/40" id="btn1"><button class="">Expolre Heroes</button></div>
+            <div class="square"></div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 </body>
 </html>
